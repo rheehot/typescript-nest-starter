@@ -1,6 +1,6 @@
 {
     "name": "typescript-nestjs-starter",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Quick and easy TypeScript NestJs Starter package",
     "author": "AGUMON ljlm0402@gmail.com",
     "license": "MIT",
@@ -9,7 +9,9 @@
       "typescript",
       "nestjs",
       "jest",
-      "lint"
+      "tslint",
+      "tsconfig",
+      "prettier"
     ],
     "scripts": {
       "typescript-nestjs-starter": "node bin/cli.js",
