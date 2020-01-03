@@ -1,18 +1,17 @@
 {
-  "name": "nestjs-starter",
-  "version": "0.0.1",
-  "description": "Sample nestjs starter",
-  "author": "",
+  "name": "typescript-nestjs-starter",
+  "version": "0.0.0",
+  "description": "Quick and easy TypeScript Nestjs Starter package",
+  "author": "AGUMON",
   "license": "MIT",
   "scripts": {
-    "prebuild": "rimraf dist",
-    "build": "nest build",
-    "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
     "start": "nest start",
-    "start:dev": "nest start --watch",
-    "start:debug": "nest start --debug --watch",
-    "start:prod": "node dist/main",
+    "dev": "nest start --watch",
+    "build": "nest build",
+    "debug": "nest start --debug --watch",
+    "prebuild": "rimraf dist",
     "lint": "tslint -p tsconfig.json -c tslint.json",
+    "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
     "test": "jest",
     "test:watch": "jest --watch",
     "test:cov": "jest --coverage",
@@ -45,31 +44,13 @@
     "tslint": "^5.20.0",
     "typescript": "^3.6.3"
   },
-  "jest": {
-    "moduleFileExtensions": [
-      "js",
-      "json",
-      "ts"
-    ],
-    "rootDir": "src",
-    "testRegex": ".spec.ts$",
-    "transform": {
-      "^.+\\.(t|j)s$": "ts-jest"
-    },
-    "coverageDirectory": "../coverage",
-    "testEnvironment": "node"
-  },
-  "main": "index.js",
-  "directories": {
-    "test": "test"
-  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ljlm0402/nestjs-starter.git"
+    "url": "git+https://github.com/ljlm0402/typescript-nestjs-starter.git"
   },
   "keywords": [],
   "bugs": {
-    "url": "https://github.com/ljlm0402/nestjs-starter/issues"
+    "url": "https://github.com/ljlm0402/typescript-nestjs-starter/issues"
   },
-  "homepage": "https://github.com/ljlm0402/nestjs-starter#readme"
+  "homepage": "https://github.com/ljlm0402/typescript-nestjs-starter#readme"
 }
