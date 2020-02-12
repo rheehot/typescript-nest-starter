@@ -1,4 +1,4 @@
-<img alt='logo' src='https://github.com/ljlm0402/typescript-nestjs-starter/raw/master/typescript-nestjs-starter.jpg' border='0'>
+<img src='https://github.com/ljlm0402/typescript-nestjs-starter/raw/images/logo.jpg' border='0' alt='logo' />
 
 [NestJs](https://www.npmjs.com/package/@nestjs/cli) with [TypeScript's](https://www.npmjs.com/package/typescript) application generator.
 
@@ -52,7 +52,7 @@ $ cd "project name" && npm run start
 - Run all unit-tests: `npm run test`.
 - Check for linting errors: `npm run lint`.
 
-## ⛑ Code Structure
+## ⛑ Code Structure(default)
 
 ```bash
 │
@@ -94,6 +94,8 @@ $ cd "project name" && npm run start
 └── tslint.json
 ```
 
-## License
+## 💳 License
 
 [MIT](LICENSE)
+
+## 🤝 Contributors

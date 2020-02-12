@@ -6,16 +6,12 @@
  *****************************************************************/
 
 const path = require('path');
-const tsNestJsStarter = require('../lib/typescript-nestjs-starter');
+const starter = require('../lib/starter');
 const destination = getDest(process.argv[2]);
 
-console.log('Setting up new TypeScript-NestJs-Starter Project');
-
-tsNestJsStarter(destination).then(() => {
-    console.log('Project setup complete!');
-});
-
 function getDest(destFolder) {
-    destFolder = (destFolder || 'typescript-nestjs-starter');
-    return path.join(process.cwd(), destFolder);
-}
+  destFolder = destFolder || 'typescript-nestjs-starter';
+  return path.join(process.cwd(), destFolder);
+};
+
+starter(destination);
