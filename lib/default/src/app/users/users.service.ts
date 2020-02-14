@@ -12,26 +12,26 @@ export class UsersService {
     return this.usersModel;
   }
 
-  findById(id: number): User {
-    const findUser = this.usersModel.find(user => user.id === id);
+  findById(userId: number): User {
+    const findUser = this.usersModel.find(user => user.id === userId);
     if (findUser) return findUser;
   }
 
-  create(CreateUserDto: CreateUserDto): User {
-    const createdUser = { id: this.usersModel.length + 1, ...CreateUserDto };
+  create(createUserDto: CreateUserDto): User {
+    const createdUser = { id: this.usersModel.length + 1, ...createUserDto };
     return createdUser;
   }
 
-  update(id: number, updateUserDto: UpdateUserDto): User[] {
+  update(userId: number, updateUserDto: UpdateUserDto): User[] {
     const updateUser = this.usersModel.map(user => {
-      if (user.id === id) user = { id: id, ...updateUserDto }
+      if (user.id === userId) user = { id: userId, ...updateUserDto }
       return user;
     });
     return updateUser;
   }
 
-  delete(id: number): User[] {
-    const deleteUser = this.usersModel.filter(user => user.id !== id);
+  delete(userId: number): User[] {
+    const deleteUser = this.usersModel.filter(user => user.id !== userId);
     return deleteUser;
   }
 }

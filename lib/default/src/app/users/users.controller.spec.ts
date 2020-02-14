@@ -40,7 +40,7 @@ describe('[TEST] UsersController', () => {
           email: 'a@gmail.com',
           password: 'a1234',
       }
-      
+
       jest.spyOn(usersService, 'findById').mockImplementation(() => result);
 
       expect(usersController.findById(userId)).toBe(result);
@@ -80,7 +80,7 @@ describe('[TEST] UsersController', () => {
           password: 'a1234'
         }
       ]
-      
+
       jest.spyOn(usersService, 'update').mockImplementation(() => result);
 
       expect(usersController.update(userId, userData)).toBe(result);
