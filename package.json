@@ -1,14 +1,14 @@
 {
   "name": "typescript-nestjs-starter",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Quick and Easy TypeScript NestJs Starter",
   "author": "AGUMON <ljlm0402@gmail.com>",
   "license": "MIT",
   "main": "bin/cli.js",
   "keywords": [
+    "typescript",
     "nest",
     "jest",
-    "typescript",
     "rxjs"
   ],
   "bin": {

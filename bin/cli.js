@@ -2,7 +2,8 @@
 
 /*****************************************************************
  * Create new typescript-nestjs-starter project.
- * created by Lim Kyungmin, 01/03/2020
+ * By AGUMON <ljlm0402@gmail.com>
+ * January 3, 2020.
  *****************************************************************/
 
 const path = require('path');
