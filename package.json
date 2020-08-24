@@ -6,9 +6,9 @@
   "license": "MIT",
   "main": "bin/cli.js",
   "keywords": [
+    "typescript",
     "nest",
     "jest",
-    "typescript",
     "rxjs"
   ],
   "bin": {

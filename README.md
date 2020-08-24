@@ -8,7 +8,7 @@
 
 <br />
 
-## 🧐 What is it?
+## 🤔 What is Nest ?
 
 nestjs is A progressive [Node.js](https://nodejs.org/en/) framework for building efficient and scalable server-side applications, heavily inspired by [Angular](https://angular.io/).
 
@@ -20,20 +20,22 @@ Under the hood, Nest makes use of robust HTTP Server frameworks like Express (th
 
 Nest provides a level of abstraction above these common Node.js frameworks (Express/Fastify), but also exposes their APIs directly to the developer. This allows developers the freedom to use the myriad of third-party modules which are available for the underlying platform.
 
+## 🚀 Quick Start
 
-
-## ⚙️ Installation
+### Install with the npm global package
 
 ```sh
 $ npm install -g typescript-nest-starter
 ```
 
-## 🚀 Quick Start
+### Run npx to install the package
 
 The quickest way to get started is use npx and pass in the name of the project you want to create.
 If you don't specify a project name, the default _typescript-nest-starter_ will be used instead.
 
-Create the app:
+This is a tool that allows you to run the npm package on a single run without installing the package.
+
+If you do not enter a project name, it defaults to _typescript-nestjs-starter_.
 
 ```bash
 $ npx typescript-nest-starter "project name"
@@ -52,7 +54,7 @@ $ cd "project name" && npm run start
 - Run all unit-tests: `npm run test`.
 - Check for linting errors: `npm run lint`.
 
-## ⛑ Code Structure(default)
+## ⛑ Code Structure (default)
 
 ```bash
 │
