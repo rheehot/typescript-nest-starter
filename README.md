@@ -1,10 +1,10 @@
-<img src='https://github.com/ljlm0402/typescript-nestjs-starter/raw/images/logo.jpg' border='0' alt='logo' />
+<img src='https://github.com/ljlm0402/typescript-nest-starter/raw/images/logo.jpg' border='0' alt='logo' />
 
 [NestJs](https://www.npmjs.com/package/@nestjs/cli) with [TypeScript's](https://www.npmjs.com/package/typescript) application generator.
 
-<a href="https://www.npmjs.com/package/typescript-nestjs-starter" target="_blank"><img src="https://img.shields.io/npm/v/typescript-nestjs-starter.svg" alt="NPM Version" /></a>
-<a href="https://www.npmjs.com/package/typescript-nestjs-starter" target="_blank"><img src="https://img.shields.io/npm/l/typescript-nestjs-starter.svg" alt="Package License" /></a>
-<a href="https://www.npmjs.com/package/typescript-nestjs-starter" target="_blank"><img src="https://img.shields.io/npm/dm/typescript-nestjs-starter.svg" alt="NPM Downloads" /></a>
+<a href="https://www.npmjs.com/package/typescript-nest-starter" target="_blank"><img src="https://img.shields.io/npm/v/typescript-nest-starter.svg" alt="NPM Version" /></a>
+<a href="https://www.npmjs.com/package/typescript-nest-starter" target="_blank"><img src="https://img.shields.io/npm/l/typescript-nest-starter.svg" alt="Package License" /></a>
+<a href="https://www.npmjs.com/package/typescript-nest-starter" target="_blank"><img src="https://img.shields.io/npm/dm/typescript-nest-starter.svg" alt="NPM Downloads" /></a>
 
 <br />
 
@@ -12,7 +12,7 @@
 
 nestjs is A progressive [Node.js](https://nodejs.org/en/) framework for building efficient and scalable server-side applications, heavily inspired by [Angular](https://angular.io/).
 
-## 🤔 Why typescript-nestjs-starter?
+## 🤔 Why typescript-nest-starter?
 
 [Nest (NestJS)](https://nestjs.com/) is a framework for building efficient, scalable [Node.js](https://nodejs.org/en/) server-side applications. It uses progressive JavaScript, is built with and fully supports [TypeScript](https://www.typescriptlang.org/) (yet still enables developers to code in pure JavaScript) and combines elements of OOP (Object Oriented Programming), FP (Functional Programming), and FRP (Functional Reactive Programming).
 
@@ -25,21 +25,21 @@ Nest provides a level of abstraction above these common Node.js frameworks (Expr
 ## ⚙️ Installation
 
 ```sh
-$ npm install -g typescript-nestjs-starter
+$ npm install -g typescript-nest-starter
 ```
 
 ## 🚀 Quick Start
 
 The quickest way to get started is use npx and pass in the name of the project you want to create.
-If you don't specify a project name, the default _typescript-nestjs-starter_ will be used instead.
+If you don't specify a project name, the default _typescript-nest-starter_ will be used instead.
 
 Create the app:
 
 ```bash
-$ npx typescript-nestjs-starter "project name"
+$ npx typescript-nest-starter "project name"
 ```
 
-Start your typescript-nestjs-starter app in development mode at `http://localhost:3000/`
+Start your typescript-nest-starter app in development mode at `http://localhost:3000/`
 
 ```bash
 $ cd "project name" && npm run start
