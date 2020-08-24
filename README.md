@@ -30,12 +30,8 @@ $ npm install -g typescript-nest-starter
 
 ### Run npx to install the package
 
-<<<<<<< HEAD
-npx is a tool in the JavaScript package management module, npm.
-=======
 The quickest way to get started is use npx and pass in the name of the project you want to create.
 If you don't specify a project name, the default _typescript-nest-starter_ will be used instead.
->>>>>>> master
 
 This is a tool that allows you to run the npm package on a single run without installing the package.
 
@@ -45,13 +41,7 @@ If you do not enter a project name, it defaults to _typescript-nestjs-starter_.
 $ npx typescript-nest-starter "project name"
 ```
 
-<<<<<<< HEAD
-Choose the template you want. We will create more templates later.
-
-Start your typescript-nestjs-starter app in development mode at `http://localhost:3000/`
-=======
 Start your typescript-nest-starter app in development mode at `http://localhost:3000/`
->>>>>>> master
 
 ```bash
 $ cd "project name" && npm run start
