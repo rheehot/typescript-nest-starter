@@ -1,6 +1,6 @@
 {
-  "name": "typescript-nestjs-starter",
-  "version": "1.0.5",
+  "name": "typescript-nest-starter",
+  "version": "1.0.0",
   "description": "Quick and Easy TypeScript NestJs Starter",
   "author": "AGUMON <ljlm0402@gmail.com>",
   "license": "MIT",
@@ -12,11 +12,11 @@
     "rxjs"
   ],
   "bin": {
-    "typescript-nestjs-starter": "bin/cli.js"
+    "typescript-nest-starter": "bin/cli.js"
   },
   "scripts": {
     "start": "node bin/cli.js",
-    "typescript-nestjs-starter": "node bin/cli.js"
+    "typescript-nest-starter": "node bin/cli.js"
   },
   "dependencies": {
     "chalk": "^3.0.0",
@@ -27,10 +27,10 @@
   "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ljlm0402/typescript-nestjs-starter.git"
+    "url": "git+https://github.com/ljlm0402/typescript-nest-starter.git"
   },
   "bugs": {
-    "url": "https://github.com/ljlm0402/typescript-nestjs-starter/issues"
+    "url": "https://github.com/ljlm0402/typescript-nest-starter/issues"
   },
-  "homepage": "https://github.com/ljlm0402/typescript-nestjs-starter#readme"
+  "homepage": "https://github.com/ljlm0402/typescript-nest-starter#readme"
 }
